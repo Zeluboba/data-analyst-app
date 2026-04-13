@@ -5,8 +5,8 @@ import asyncio
 import websockets
 
 WS_URL = "wss://d5dfd6buaipmjov5en9g.y3q8o1jq.apigw.yandexcloud.net"
-AWS_ACCESS_KEY_ID = "YCAJEHmWsiUI4Gcvd3Zi1fP4Y"
-AWS_SECRET_ACCESS_KEY = "YCMpsTSWVYqUHazFwBERstwSM5RNisARlnPDgGsy"
+AWS_ACCESS_KEY_ID = st.secrets["AWS_ACCESS_KEY_ID"]
+AWS_SECRET_ACCESS_KEY = st.secrets["AWS_SECRET_ACCESS_KEY"]
 BUCKET = "data-analyst-files"
 
 s3 = boto3.client(

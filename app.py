@@ -5,7 +5,7 @@ import websockets
 
 WS_URL = "wss://d5dfd6buaipmjov5en9g.y3q8o1jq.apigw.yandexcloud.net"
 
-# ✅ Ключи берутся только из st.secrets — никогда не хардкодить в коде!
+
 AWS_ACCESS_KEY_ID = st.secrets["AWS_ACCESS_KEY_ID"]
 AWS_SECRET_ACCESS_KEY = st.secrets["AWS_SECRET_ACCESS_KEY"]
 BUCKET = "data-analyst-files"
